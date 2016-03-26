@@ -1,0 +1,12 @@
+= simple_form_for Location.new do |f|
+  = f.input :town_name
+  = f.input :state
+  = f.button :submit
+
+%br
+
+- if Location.any?
+  .locations
+    %ol
+      - Location.all.each do |location|
+        %li= "#{location.town_name}, #{location.state}"

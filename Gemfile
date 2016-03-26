@@ -9,6 +9,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'haml-rails', '~> 0.9'
+gem 'wunderground'
+gem 'simple_form'
 
 group :development, :test do
   gem 'pry-rails'
@@ -19,6 +21,6 @@ group :development do
   gem 'listen', '~> 3.0.5'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'capybara'
+  gem 'capybara', :git => 'https://github.com/jnicklas/capybara.git'
   gem 'rspec-rails'
 end
