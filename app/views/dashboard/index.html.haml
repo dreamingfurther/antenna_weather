@@ -5,8 +5,8 @@
 
 %br
 
-- if Location.any?
+- if @location_forecasts.any?
   .locations
     %ol
-      - Location.all.each do |location|
-        %li= "#{location.town_name}, #{location.state}"
+      - @location_forecasts.all.each do |forecast|
+        %li= forecast.info

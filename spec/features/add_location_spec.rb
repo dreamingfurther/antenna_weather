@@ -7,6 +7,6 @@ feature 'add a location' do
     fill_in "State", with: "MA"
     click_on "Create location"
 
-    expect(page).to have_content "Webster, MA"
+    expect(page).to have_content "MA/Webster"
   end
 end

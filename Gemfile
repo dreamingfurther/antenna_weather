@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'haml-rails', '~> 0.9'
 gem 'wunderground'
 gem 'simple_form'
+gem 'dotenv-rails'
 
 group :development, :test do
   gem 'pry-rails'
