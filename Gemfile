@@ -15,6 +15,7 @@ gem 'dotenv-rails'
 
 group :development, :test do
   gem 'pry-rails'
+  gem 'factory_girl_rails'
 end
 
 group :development do

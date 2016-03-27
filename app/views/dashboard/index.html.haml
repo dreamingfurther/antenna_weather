@@ -1,5 +1,5 @@
 - if @location_forecasts.any?
   .locations
-    %ol
-      - @location_forecasts.all.each do |forecast|
-        %li= forecast.info
+    - @location_forecasts.all.each do |forecast|
+      - Location::UPCOMING_FORECAST_DAYS.each do |index|
+        = forecast.average_windspeed_for_day(index)
