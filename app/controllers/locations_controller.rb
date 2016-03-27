@@ -1,7 +1,7 @@
 class LocationsController < ApplicationController
   def create
     Location.create(location_params)
-    redirect_to admin_path
+    redirect_to admin_dashboard_path
   end
 
   private
