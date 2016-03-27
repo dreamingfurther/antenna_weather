@@ -1,3 +1,10 @@
+= simple_form_for @location do |f|
+  = f.input :town_name
+  = f.input :state
+  = f.button :submit
+
+%br
+
 - if @location_forecasts.any?
   .locations
     %ol
