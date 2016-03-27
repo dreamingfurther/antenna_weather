@@ -1,0 +1,11 @@
+---
+pairs:
+  dt: David Tengdin; dreamingfurther
+  jn: Jesse Norris; jraenorris
+email_addresses:
+  dt: dreamingfurther@gmail.com
+  jn: jraenorris.developer@gmail.com
+email:
+  prefix: pair
+  domain: gmail.com
+  no_solo_prefix: true
