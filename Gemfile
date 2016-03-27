@@ -24,4 +24,5 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capybara', :git => 'https://github.com/jnicklas/capybara.git'
   gem 'rspec-rails'
+  gem 'spring-commands-rspec'
 end
