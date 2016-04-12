@@ -13,3 +13,7 @@ RSpec.configure do |config|
   config.use_transactional_fixtures = true
   config.infer_spec_type_from_file_location!
 end
+
+def fake_10_day_data
+  @fake_10_day_data ||= JSON.parse(File.read(Rails.root.join("spec/fixtures/10_day_forecast_data.json")))
+end

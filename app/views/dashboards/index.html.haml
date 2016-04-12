@@ -2,4 +2,4 @@
   .locations
     - @location_forecasts.all.each do |forecast|
       - Location::UPCOMING_FORECAST_DAYS.each do |index|
-        = forecast.average_windspeed_for_day(index)
+        = forecast.average_windspeed_for_evening(index)
