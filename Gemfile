@@ -13,6 +13,7 @@ gem 'wunderground'
 gem 'simple_form'
 gem 'dotenv-rails'
 gem 'timecop'
+gem 'httparty'
 
 group :development, :test do
   gem 'pry-rails'

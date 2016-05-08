@@ -1,5 +1,5 @@
 class DashboardsController < ApplicationController
   def index
-    @location_forecasts = LocationForecast.all
+    @locations = Location.all
   end
 end

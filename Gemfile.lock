@@ -229,6 +229,7 @@ DEPENDENCIES
   dotenv-rails
   factory_girl_rails
   haml-rails (~> 0.9)
+  httparty
   jbuilder (~> 2.0)
   jquery-rails
   listen (~> 3.0.5)

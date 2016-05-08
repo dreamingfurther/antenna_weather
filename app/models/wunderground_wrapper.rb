@@ -9,6 +9,10 @@ class WundergroundWrapper
     wunderground_api.hourly10day_for(location.info)
   end
 
+  def astronomy
+    wunderground_api.astronomy(location.info)
+  end
+
   private
 
   attr_reader :location
