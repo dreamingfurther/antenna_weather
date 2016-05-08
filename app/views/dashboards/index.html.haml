@@ -1,0 +1,9 @@
+- if @locations.any?
+  .locations
+    - @locations.each do |location|
+      %h3= location.info
+      %ul
+        - Location::UPCOMING_FORECAST_DAYS.each do |index|
+          - morning = location.average_windspeed_for_morning(index)
+          - evening = location.average_windspeed_for_evening(index)
+          %li= "Morning: #{morning} / Evening: #{evening}"

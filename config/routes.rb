@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root "dashboard#index"
-  get "admin", to: "admin/dashboard#show"
+  root "dashboards#index"
+  get "admin", to: "admin/dashboards#show"
 
   namespace :admin do
     resource :dashboard, only: [:show]

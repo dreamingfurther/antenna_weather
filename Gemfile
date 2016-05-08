@@ -12,9 +12,12 @@ gem 'haml-rails', '~> 0.9'
 gem 'wunderground'
 gem 'simple_form'
 gem 'dotenv-rails'
+gem 'timecop'
+gem 'httparty'
 
 group :development, :test do
   gem 'pry-rails'
+  gem 'factory_girl_rails'
 end
 
 group :development do
